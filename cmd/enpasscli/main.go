@@ -3,15 +3,16 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/atotto/clipboard"
-	"github.com/hazcod/enpass-cli/pkg/enpass"
-	"github.com/miquella/ask"
-	"github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
 	"runtime"
 	s "sort"
 	"strings"
+
+	"github.com/atotto/clipboard"
+	"github.com/miquella/ask"
+	"github.com/msladek/enpass-cli/pkg/enpass"
+	"github.com/sirupsen/logrus"
 )
 
 const (
