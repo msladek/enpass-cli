@@ -1,4 +1,4 @@
-PACKAGE_NAME          := github.com/hazcod/enpass-cli
+PACKAGE_NAME          := github.com/msladek/enpass-cli
 GOLANG_CROSS_VERSION  ?= v1.15.2
 
 SYSROOT_DIR     ?= sysroots
